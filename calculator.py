@@ -1,10 +1,11 @@
+# https://github.com/jennii-27/lab10-X-Y.git
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-# https://github.com/jennii-27/lab10-X-Y.git
 # Partner 1: Xindi Wang
 # Partner 2: Yamirka Varela-Hernandez
 
