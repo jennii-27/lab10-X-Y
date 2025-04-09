@@ -18,12 +18,11 @@ def hypotenuse(a, b):
 def add(a, b): 
     result = a+b
     return result
-def subtract(a,b):
-    result = a-b
-    return result
+
 def multiply(a,b):
     result = a*b
     return result
+
 def divide(a,b):
     if a == 0:
         raise ZeroDivisionError('a cannot be 0!')
@@ -39,5 +38,6 @@ def exponent(a,b):
     result = a**b
     return result
 
-
+def sub(a, b):
+    return a - b
 
