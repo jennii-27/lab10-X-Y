@@ -6,6 +6,15 @@ One function per operation, in order.
 """
 # First example
 import math
+def square_root(a):
+    if a <0:
+        raise ValueError
+    else:
+        return math.sqrt(a)
+def hypotenuse(a, b):
+    result = (a**2+b**2)**(1/2)
+    return result
+
 def add(a, b): 
     result = a+b
     return result
@@ -13,6 +22,7 @@ def add(a, b):
 def multiply(a,b):
     result = a*b
     return result
+
 def divide(a,b):
     if a == 0:
         raise ZeroDivisionError('a cannot be 0!')
@@ -28,15 +38,10 @@ def exponent(a,b):
     result = a**b
     return result
 
-
-import math
-def add(a, b):
-    return a + b
-
-
 def sub(a, b):
     return a - b
 
+<<<<<<< HEAD
 def mul(a, b):
     return a * b
 
@@ -54,3 +59,5 @@ def exp(a, b):
     return a**b
 
 
+=======
+>>>>>>> ba963c3a382d4962fb80ef5943e5f88670b6f9ae
