@@ -1,7 +1,12 @@
 import unittest
 from calculator import *
 
+# https://github.com/jennii-27/lab10-X-Y.git
+# Partner 1: Xindi Wang
+# Partner 2: Yamirka Varela-Hernandez
+
 class TestCalculator(unittest.TestCase):
+
 
     ######### Partner 2
     def test_add(self): # 3 assertions
