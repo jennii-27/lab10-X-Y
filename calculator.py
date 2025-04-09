@@ -45,7 +45,7 @@ def exponent(a,b):
 def sub(a, b):
     return a - b
 
-<<<<<<< HEAD
+
 def mul(a, b):
     return a * b
 
@@ -62,6 +62,3 @@ def log(a, b):
 def exp(a, b):
     return a**b
 
-
-=======
->>>>>>> ba963c3a382d4962fb80ef5943e5f88670b6f9ae
